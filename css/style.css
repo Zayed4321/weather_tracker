@@ -1,0 +1,71 @@
+.weather1 {
+    height: 95vh;
+    border-radius: 10%;
+    margin: 20px 0;
+}
+
+.container {
+    width: 800px;
+}
+
+.search_bar {
+    width: 200px;
+}
+
+.imgBox {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.weather_image {
+    width: 200px;
+}
+
+.weather2 {
+    justify-content: center;
+}
+
+.weather3 {
+    background-color: #c3f3fa;
+    border-radius: 20px;
+    margin: 100px 0px;
+    padding: 100px 0;
+    height: 60%;
+}
+
+.Cityname {
+    text-align: center;
+    color: white;
+}
+
+.celsius {
+    text-align: center;
+    color: white;
+}
+
+.weather_condition {
+    text-align: center;
+    color: white;
+}
+
+.wind_state {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+#weatherwind {
+    display: inline;
+}
+
+.wind_temp {
+    text-align: center;
+}
+
+.hum_state {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}

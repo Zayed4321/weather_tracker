@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Tracking By Zayed</title>
+    <!----------------------------------------------------- Link Bootstrap CDN ---------------------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!----------------------------------------------------- Link Fontawesome CDN ---------------------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-------------------------------------------------  CSS styling file linked  ------------------------------------------------->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <section>
+        <div class="container">
+            <div class="row weather1 bg-info">
+                <div class="row mt-5 ps-5">
+                    <div class="col-md-5">
+                        <div class="row">
+                            <div class="col-md-2"> <button id="srchBtn" class="btn btn-success" type="submit"><i class="fa-brands fa-searchengin" style="color: #fafafa;"></i></button> </div>
+                            <div class="col-md-4"> <input id="userInput" class="form-control ms-3 search_bar bg-transparent border-0" type="search" placeholder="Search"> </div> 
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <h4 class="text-light ms-3"> Today, 22nd September 2023 </h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 imgBox">
+                        <img class="weather_image" src="css/Images/partly_cloudy.png" alt="Sorry image not available">
+                    </div>
+                </div>
+                <div class="row weather2">
+                    <div class="col-md-9 weather3">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="Cityname">
+                                    <h1 id="nameOfCity"> Dhaka </h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="celsius">
+                                    <h1 id="celsiusNum"> 29°C </h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="weather_condition">
+                                    <h5 id="weatherdesc"> Partly Cloudy </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="wind_state">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h6 > Wind </h6>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6 id="weatherwind"> 10 </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="hum_state">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h6> Humidity </h6>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6 id="weatherhumidity"> 10 km/h </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-------------------------------------------------------------------- Bootstrap JS CDN link ---------------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--------------------------------------------------------------------  JS Custom File link ---------------------------------------------------->
+    <script src="Weather_track.js"></script>
+  </body>
+</html>
